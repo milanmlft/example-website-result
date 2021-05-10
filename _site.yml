@@ -6,6 +6,8 @@ navbar:
       href: index.html
     - text: "About"
       href: about.html
+    - text: "Chapter 1"
+      href: chapter1.html
 
 output:
   html_document:
