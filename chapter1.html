@@ -9,9 +9,10 @@
 <meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
 
 
+<meta name="author" content="Milan Malfait" />
 
 
-<title>My Website</title>
+<title>Chapter 1</title>
 
 <script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -285,22 +286,34 @@ $(document).ready(function () {
 
 
 
-<h1 class="title toc-ignore">My Website</h1>
+<h1 class="title toc-ignore">Chapter 1</h1>
+<h4 class="author">Milan Malfait</h4>
+<h4 class="date">5/10/2021</h4>
 
 </div>
 
 
-<p>Hello, Website!</p>
-<p>For more information about simple R Markdown websites, please read the documentation at <a href="https://bookdown.org/yihui/rmarkdown/rmarkdown-site.html" class="uri">https://bookdown.org/yihui/rmarkdown/rmarkdown-site.html</a>.</p>
-<p>Please also note that simple R Markdown sites are <em>not</em> based on <strong>blogdown</strong>. They are probably good for websites with only a few Rmd documents. For larger-scale and more sophisticated websites (such as blogs), you may want to use <strong>blogdown</strong> instead: <a href="https://github.com/rstudio/blogdown" class="uri">https://github.com/rstudio/blogdown</a>.</p>
-<div id="contents" class="section level2">
-<h2>Contents</h2>
-<ul>
-<li><a href="chapter1.html">Chapter 1</a></li>
-</ul>
+<div id="r-markdown" class="section level2">
+<h2>R Markdown</h2>
+<p>This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <a href="http://rmarkdown.rstudio.com" class="uri">http://rmarkdown.rstudio.com</a>.</p>
+<p>When you click the <strong>Knit</strong> button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:</p>
+<pre class="r"><code>summary(cars)</code></pre>
+<pre><code>##      speed           dist       
+##  Min.   : 4.0   Min.   :  2.00  
+##  1st Qu.:12.0   1st Qu.: 26.00  
+##  Median :15.0   Median : 36.00  
+##  Mean   :15.4   Mean   : 42.98  
+##  3rd Qu.:19.0   3rd Qu.: 56.00  
+##  Max.   :25.0   Max.   :120.00</code></pre>
+</div>
+<div id="including-plots" class="section level2">
+<h2>Including Plots</h2>
+<p>You can also embed plots, for example:</p>
+<p><img src="chapter1_files/figure-html/pressure-1.png" width="672" /></p>
+<p>Note that the <code>echo = FALSE</code> parameter was added to the code chunk to prevent printing of the R code that generated the plot.</p>
 </div>
 
-<div id="rmd-source-code">LS0tCnRpdGxlOiAiTXkgV2Vic2l0ZSIKLS0tCgpIZWxsbywgV2Vic2l0ZSEKCkZvciBtb3JlIGluZm9ybWF0aW9uIGFib3V0IHNpbXBsZSBSIE1hcmtkb3duIHdlYnNpdGVzLCBwbGVhc2UgcmVhZCB0aGUgZG9jdW1lbnRhdGlvbiBhdCBodHRwczovL2Jvb2tkb3duLm9yZy95aWh1aS9ybWFya2Rvd24vcm1hcmtkb3duLXNpdGUuaHRtbC4KClBsZWFzZSBhbHNvIG5vdGUgdGhhdCBzaW1wbGUgUiBNYXJrZG93biBzaXRlcyBhcmUgX25vdF8gYmFzZWQgb24gKipibG9nZG93bioqLiBUaGV5IGFyZSBwcm9iYWJseSBnb29kIGZvciB3ZWJzaXRlcyB3aXRoIG9ubHkgYSBmZXcgUm1kIGRvY3VtZW50cy4gRm9yIGxhcmdlci1zY2FsZSBhbmQgbW9yZSBzb3BoaXN0aWNhdGVkIHdlYnNpdGVzIChzdWNoIGFzIGJsb2dzKSwgeW91IG1heSB3YW50IHRvIHVzZSAqKmJsb2dkb3duKiogaW5zdGVhZDogaHR0cHM6Ly9naXRodWIuY29tL3JzdHVkaW8vYmxvZ2Rvd24uCgojIyBDb250ZW50cwoKLSBbQ2hhcHRlciAxXShjaGFwdGVyMS5odG1sKQo=</div>
+<div id="rmd-source-code">LS0tCnRpdGxlOiAiQ2hhcHRlciAxIgphdXRob3I6ICJNaWxhbiBNYWxmYWl0IgpkYXRlOiAiNS8xMC8yMDIxIgpvdXRwdXQ6IGh0bWxfZG9jdW1lbnQKLS0tCgpgYGB7ciBzZXR1cCwgaW5jbHVkZT1GQUxTRX0Ka25pdHI6Om9wdHNfY2h1bmskc2V0KGVjaG8gPSBUUlVFKQpgYGAKCiMjIFIgTWFya2Rvd24KClRoaXMgaXMgYW4gUiBNYXJrZG93biBkb2N1bWVudC4gTWFya2Rvd24gaXMgYSBzaW1wbGUgZm9ybWF0dGluZyBzeW50YXggZm9yIGF1dGhvcmluZyBIVE1MLCBQREYsIGFuZCBNUyBXb3JkIGRvY3VtZW50cy4gRm9yIG1vcmUgZGV0YWlscyBvbiB1c2luZyBSIE1hcmtkb3duIHNlZSA8aHR0cDovL3JtYXJrZG93bi5yc3R1ZGlvLmNvbT4uCgpXaGVuIHlvdSBjbGljayB0aGUgKipLbml0KiogYnV0dG9uIGEgZG9jdW1lbnQgd2lsbCBiZSBnZW5lcmF0ZWQgdGhhdCBpbmNsdWRlcyBib3RoIGNvbnRlbnQgYXMgd2VsbCBhcyB0aGUgb3V0cHV0IG9mIGFueSBlbWJlZGRlZCBSIGNvZGUgY2h1bmtzIHdpdGhpbiB0aGUgZG9jdW1lbnQuIFlvdSBjYW4gZW1iZWQgYW4gUiBjb2RlIGNodW5rIGxpa2UgdGhpczoKCmBgYHtyIGNhcnN9CnN1bW1hcnkoY2FycykKYGBgCgojIyBJbmNsdWRpbmcgUGxvdHMKCllvdSBjYW4gYWxzbyBlbWJlZCBwbG90cywgZm9yIGV4YW1wbGU6CgpgYGB7ciBwcmVzc3VyZSwgZWNobz1GQUxTRX0KcGxvdChwcmVzc3VyZSkKYGBgCgpOb3RlIHRoYXQgdGhlIGBlY2hvID0gRkFMU0VgIHBhcmFtZXRlciB3YXMgYWRkZWQgdG8gdGhlIGNvZGUgY2h1bmsgdG8gcHJldmVudCBwcmludGluZyBvZiB0aGUgUiBjb2RlIHRoYXQgZ2VuZXJhdGVkIHRoZSBwbG90Lgo=</div>
 
 
 
@@ -336,7 +349,7 @@ $(document).ready(function () {
 <!-- code folding -->
 <script>
 $(document).ready(function () {
-  window.initializeSourceEmbed("index.Rmd");
+  window.initializeSourceEmbed("chapter1.Rmd");
 });
 </script>
 
